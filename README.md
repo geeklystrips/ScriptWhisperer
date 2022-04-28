@@ -26,13 +26,14 @@ macOS 10.14+ issue with downloaded plugins:
 The following fix is adapted from https://community.adobe.com/t5/indesign-discussions/plugin-error-with-mac-os-catalina/m-p/10660103
 
 1. Quit Photoshop if running.
-2. Move the plugin away from its installed location (from "**/Applications/Adobe Photoshop 2022/Plug-ins**" to the Desktop for example)
+2. Move the plugin away from its installed location 
+(from "**/Applications/Adobe Photoshop 2022/Plug-ins**" to the Desktop for example)
 3. Start Photoshop again so it registers the change.
 4. Quit Photoshop once more.
 5. Move the plugin back to the install location.
 6. Unquarantine the plugin with the xattr command using terminal:
     1. Launch terminal
-    2. Type "sudo xattr -r -d com.apple.quarantine " without the quotes and without return, but including the final space. 
+    2. Type `sudo xattr -r -d com.apple.quarantine ` (include the space)
     3. Instead of typing the path, drag the plugin file to the terminal. The result should read:
         `sudo xattr -r -d com.apple.quarantine /Applications/Adobe\ Photoshop\ 2022/Plug-ins/ScriptingListener.plugin`
     4. Press return to run the command (terminal may ask for an admin password)
