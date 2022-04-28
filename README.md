@@ -35,6 +35,6 @@ The following fix is adapted from https://community.adobe.com/t5/indesign-discus
     1. Launch terminal
     2. Type `sudo xattr -r -d com.apple.quarantine ` (include the space)
     3. Instead of typing the path, drag the plugin file to the terminal. The result should read:
-        `sudo xattr -r -d com.apple.quarantine /Applications/Adobe\ Photoshop\ 2022/Plug-ins/ScriptingListener.plugin`
+    `sudo xattr -r -d com.apple.quarantine /Applications/Adobe\ Photoshop\ 2022/Plug-ins/ScriptingListener.plugin`
     4. Press return to run the command (terminal may ask for an admin password)
 7. When completed, start Photoshop again.
