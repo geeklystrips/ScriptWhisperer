@@ -9,13 +9,14 @@ Helper tools for working with Adobe Photoshop's ScriptListener plugin
 Get ScriptingListener plugin from adobe.com:
 https://helpx.adobe.com/photoshop/kb/downloadable-plugins-and-content.html
 
-Windows
+**Windows**
 https://download.adobe.com/pub/adobe/photoshop/win/13.x/Win_Scripting_Plug-In.zip
 
-macOS
-2020+: https://helpx.adobe.com/content/dam/help/en/photoshop/kb/downloadable-plugins-and-content/Scripting_Plug_In_Release.zip
+**macOS Photoshop 2020+**
+https://helpx.adobe.com/content/dam/help/en/photoshop/kb/downloadable-plugins-and-content/Scripting_Plug_In_Release.zip
 
-2019 and earlier: https://download.adobe.com/pub/adobe/photoshop/mac/13.x/Scripting_Plug_In_Release.dmg
+**Photoshop CC2019 and earlier**
+https://download.adobe.com/pub/adobe/photoshop/mac/13.x/Scripting_Plug_In_Release.dmg
 
 ## macOS Quarantining Issue
 
