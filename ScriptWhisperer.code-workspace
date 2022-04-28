@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"type": "extendscript-debug",
+				"request": "launch",
+				"name": "Ask for script name",
+				"program": "${workspaceFolder}/${command:AskForScriptName}",
+				"stopOnEntry": false
+			},
+			{
+				"type": "extendscript-debug",
+				"request": "launch",
+				"name": "ScriptWhisperer.jsx",
+				"program": "${workspaceFolder}/ScriptWhisperer.jsx",
+				"stopOnEntry": false
+			}
+		]
+	}
+}
